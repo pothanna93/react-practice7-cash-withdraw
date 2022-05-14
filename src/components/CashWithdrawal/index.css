@@ -1,0 +1,102 @@
+.denomination-app {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.denomination-container {
+  background-color: #150b3e;
+  width: 80%;
+  max-width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .denomination-container {
+    width: 50%;
+    max-width: 430px;
+    padding: 30px;
+  }
+}
+.user-details {
+  display: flex;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 42px;
+  width: 40px;
+  border-radius: 25px;
+}
+@media screen and (min-width: 768px) {
+  .initial-container {
+    height: 64px;
+    width: 62px;
+    border-radius: 32px;
+  }
+}
+.initial {
+  color: #7c3aed;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+.name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'roboto';
+  margin-left: 9px;
+  padding-bottom: 12px;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 20px;
+    margin-left: 16px;
+  }
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.your-balance {
+  font-size: 22px;
+  color: #585076;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .your-balance {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+}
+.balance {
+  color: #c4c4c4;
+  font-size: 24px;
+  font-weight: 600;
+}
+.rupees {
+  font-size: 12px;
+  color: #585076;
+  font-weight: 500;
+}
+.withdraw {
+  color: #c4c4c4;
+  font-size: 24px;
+  font-weight: 500;
+}
+.choose-sum {
+  color: #585076;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'roboto';
+}
+.denomination-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0px;
+}
